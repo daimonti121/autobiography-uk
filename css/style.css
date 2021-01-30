@@ -1,0 +1,65 @@
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.en {
+  width: 1000px;
+  margin: 40px auto 0px;
+  -webkit-box-shadow: -1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: -1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.en__page {
+  margin: 45px;
+}
+h1 {
+  padding-top: 20px;
+}
+.autobiography {
+  display: flex;
+  width: 100%;
+}
+.autobiography__image-style {
+  box-shadow: 3px 3px 3px #777;
+  height: 220px;
+
+}
+.last {
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .en {
+    width: 880px;
+  } 
+  .autobiography {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .autobiography__image {
+    text-align: center;
+  }
+  .center {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .en {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .en {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .en {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .en {
+    width: 380px;
+  }
+}
